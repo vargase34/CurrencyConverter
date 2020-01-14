@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Currency Converter</title>
+</head>
+
+<body onload="fetchedData()">
+    <div style='text-align:center' id='bg'>
+
+        <select id='selectCountry' name='country'>
+        </select>
+        <select id='selectCountry2' name='country'>
+        </select>
+
+        <br><br>
+
+        <input type="text" id='value' placeholder="Enter value">
+        <input type="text" id='value2' placeholer="Enter value">
+        <br><br><br>
+        <button onclick="fetchedData()">Convert</button>
+        <button onclick="fetchedData2()">Convert</button>
+
+    </div>
+</body>
+<script src='script.js'></script>
+
+</html>

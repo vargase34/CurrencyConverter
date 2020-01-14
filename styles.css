@@ -1,0 +1,18 @@
+*{
+    background-color: black;
+    color:white;
+    margin: 10px;
+}
+
+select{
+    font-size: 3em;
+    padding: 5px;
+}
+
+input{
+    width: 15%;
+}
+
+button{
+    font-size:1em;
+} 
